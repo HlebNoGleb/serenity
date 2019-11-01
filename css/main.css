@@ -250,6 +250,7 @@ textPath{pointer-events:all;cursor:pointer;user-select: none; fill:#fff; z-index
 	text-align: center;
     margin: auto;
     display: inherit;
+    margin-top: 10px;
 }
 .logo img{
 	max-width: 5vmax;
