@@ -157,7 +157,7 @@ text {
 svg, svg * {
   pointer-events:none;
 }
-textPath{pointer-events:auto;cursor:pointer;user-select: none; fill:#fff;}
+textPath{pointer-events:auto;cursor:pointer;user-select: none; fill:#fff; z-index: 999999}
 .circle-nav{
 	position:absolute;
 	top:50%;
@@ -276,7 +276,7 @@ textPath{pointer-events:auto;cursor:pointer;user-select: none; fill:#fff;}
 }
 @media only screen and (max-width: 400px) and (orientation: portrait) {
 	.polyhedron{
-		transform: translate(-50%,-50%) rotate(180deg) scale(.9);
+		transform: translate(-50%,-60%) rotate(180deg) scale(.9);
 	}
 	.circle-nav{
 		width: 100vw;
