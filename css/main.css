@@ -157,7 +157,7 @@ text {
 svg, svg * {
   pointer-events:none;
 }
-textPath{pointer-events:auto;cursor:pointer;user-select: none; fill:#fff; z-index: 999999}
+textPath{pointer-events:none;cursor:pointer;user-select: none; fill:#fff; z-index: 999999}
 .circle-nav{
 	position:absolute;
 	top:50%;
