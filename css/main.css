@@ -307,7 +307,7 @@ textPath{pointer-events:all;cursor:pointer;user-select: none; fill:#fff; z-index
 }
 @media only screen and (max-width: 400px) and (orientation: portrait) {
 	.polyhedron{
-		transform: translate(-50%,-30%) rotate(180deg) scale(.9);
+		transform: translate(-50%,-40%) rotate(180deg) scale(.9);
 	}
 	.circle-nav{
 		display: none;
