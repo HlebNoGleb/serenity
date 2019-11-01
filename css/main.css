@@ -30,15 +30,17 @@ body {
     transform: translate(-50%,-50%) rotate(180deg) scale(1.5);
 }
 .buttons{
-	display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     position: absolute;
     top: 15%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 100%;
     display: none;
+}
+.btn_row{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 button{
 	outline: none;
@@ -244,6 +246,14 @@ textPath{pointer-events:all;cursor:pointer;user-select: none; fill:#fff; z-index
 .circle-nav ul li:nth-child(12){
   transform:rotate(330deg)
 }
+.logo{
+	text-align: center;
+    margin: auto;
+    display: inherit;
+}
+.logo img{
+	max-width: 5vmax;
+}
 @media (max-width: 1500px){
 	.polyhedron{
 		transform: translate(-50%,-50%) rotate(180deg) scale(1.2);
@@ -257,7 +267,10 @@ textPath{pointer-events:all;cursor:pointer;user-select: none; fill:#fff; z-index
 		display: none;
 	}
 	.buttons{
-		display: flex;
+		display: block;
+	}
+	.logo_bottom{
+		display: none;
 	}
 }
 @media only screen and (max-width: 900px) and (orientation: portrait) {
